@@ -1,3 +1,9 @@
+// install from npm i typewriter-effect
+// import Typewriter from 'typewriter-effect';
+// then component
+
+
+
 import React from 'react'
 import Typewriter from 'typewriter-effect';
 
