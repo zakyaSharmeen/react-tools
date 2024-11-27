@@ -35,6 +35,7 @@ import User from './Hooks/ContextApi/User.jsx'
 import Useref from './Hooks/Useref.jsx'
 import Counterincrease from './Components-tools/Counterincrease.jsx'
 import UseReducer from './Hooks/UseReducer.jsx'
+import Component from './Hooks/CustomHook/Component.jsx'
 
 function App() {
   return (
@@ -50,7 +51,8 @@ function App() {
 
       {/* <Useref/> */}
       {/* <Counterincrease/> */}
-      <UseReducer/>
+      {/* <UseReducer/> */}
+      <Component/>
     </div>
   )
 }
